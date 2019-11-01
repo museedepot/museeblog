@@ -1,0 +1,21 @@
+[categories]
+other = "Categories:"
+
+[readingTime]
+one = "Ein Wort"
+other = "{{.Count}} Wörter"
+
+[readMore]
+other = "weiterlesen ..."
+
+[draft]
+other = "Entwurf"
+
+[subscribe]
+other = "RSS-Feed"
+
+[rendered]
+other = "Erstellt von"
+
+[comments]
+other = "Verfasse/Lese Kommentare"

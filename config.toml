@@ -1,0 +1,22 @@
+#baseurl = "https://www.museedepot.blog/"
+title = "MuséeDepot"
+canonifyurls = true
+languagecode = "de-DE"
+summaryLength = 25
+enableEmoji = true
+paginate = 6
+
+[author]
+    name = "Muséedepot"
+    mail = "museedepot@protonmail.com"
+    github = "museedepot"
+    #gitlab = ""
+    #linkedin = ""
+    paypal = "https://paypal.me/museedepot?locale.x=de_DE"
+    #twitter = ""
+    #instagram = ""
+    #mastodon = ""
+    #patreon = ""
+
+[params]
+    tagline = "Ausflüge, Austellungen, Museen, Geschichten"

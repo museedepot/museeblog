@@ -1,0 +1,16 @@
+<!doctype html>
+
+<html lang="{{ .Site.LanguageCode | default "de" }}">
+
+<head>
+  <title>{{ .Site.Title }}</title>
+  {{ partial "meta" . }}
+  {{ partialCached "header_includes" . -}}
+</head>
+
+<body>
+  <div id="container"> 
+    {{ partial "header_home" . }}
+    {{ partial "nav" . }}
+
+    <main id="swup" class="transition-fade">

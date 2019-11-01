@@ -1,0 +1,27 @@
+<!-- Sharingbutton Twitter -->
+<ul class="share">
+  <li>
+    <span>
+    Für deine Freunde
+    </span>
+  </li>
+  <li>
+  <a class="twitter" href="https://twitter.com/intent/tweet/?text={{ .Title }}&amp;url={{ .Permalink }}" target="_blank" rel="noopener" aria-label="">
+    <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+  </a>
+    </li>
+  <li>
+<!-- Sharingbutton E-Mail -->
+  <a class="mail" href="mailto:?subject={{ .Site.Title }} {{ .Title }}&amp;body={{ .Permalink }}" target="_self" rel="noopener" aria-label="">
+    <i class="fa fa-at fa-lg"></i>
+  </a>
+    </li>
+    <li>
+<!-- Sharingbutton Pinterest -->
+  <a class="pinterest" href="https://pinterest.com/pin/create/button/?url={{ .Permalink }}&amp;media={{ .Site.Home }}{{ .Params.image }}&amp;description={{ .Description }}" target="_blank" rel="noopener" aria-label="">
+    <i class="fa fa-pinterest fa-lg" aria-hidden="true"></i>
+  </a>
+  </li>
+</ul>
+{{ if .Params.image }}
+{{ end }}

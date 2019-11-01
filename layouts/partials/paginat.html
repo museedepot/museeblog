@@ -1,0 +1,17 @@
+{{ $pag := $.Paginator }}
+
+<ul class="pagination" role="navigation">
+    <li>
+        {{ if $pag.HasPrev }}
+        <a href="{{ $pag.Prev.URL }}"><i class="fa fa-chevron-left"></i></a>
+        {{ end }}
+    </li>
+    <li>
+        <span class="page-number">{{ $pag.PageNumber }}</span>
+    </li>
+    <li>
+        {{ if $pag.HasNext }}
+        <a href="{{ $pag.Next.URL }}"><i class="fa fa-chevron-right"></i></a>
+        {{ end }}
+    </li>
+</ul>

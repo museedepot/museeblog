@@ -1,0 +1,19 @@
+{{ partial "share-buttons.html" . }}
+
+<section class="post-nav">
+    <ul>
+        {{ with .NextInSection }}
+        <li>
+            <a href="{{.Permalink}}"><i class="fa fa-chevron-left"></i></a>
+        </li>
+        {{ end }}
+        {{ with .PrevInSection }}
+        <li>
+            <a href="{{.Permalink}}"><i class="fa fa-chevron-right"></i></a>
+        </li>
+        {{ end }}
+    </ul>
+</section>
+ <!--   {{ if .Site.DisqusShortname }}
+        {{ partial "disqus" . }}
+    {{ end }}  -->

@@ -1,0 +1,27 @@
+</main>
+    <footer>
+        <h6>{{ .Site.Copyright | markdownify }}
+            <a href="{{.Site.BaseURL}}index.xml">{{ T "subscribe" }} Muséedepot 
+            </a></h6>
+    </footer>
+</div>
+<script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
+<script src="https://unpkg.com/@swup/scroll-plugin@latest/dist/SwupScrollPlugin.min.js"></script>
+<script>
+	const options = {
+		plugins: [new SwupScrollPlugin({
+					animateScroll: false,
+					doScrollingRightAway: false,
+					scrollFriction: 0.5,
+					scrollAcceleration: 0.02,
+			  		})]
+		};
+	const swup = new Swup(options);
+</script>
+
+{{ if .Site.GoogleAnalytics }}
+{{ template "_internal/google_analytics_async.html" . }}
+{{ end }}
+</body>
+
+</html>

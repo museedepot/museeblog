@@ -1,0 +1,10 @@
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Alegreya|Josefin+Sans" />
+	<link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css" />
+  	
+  <link rel="stylesheet" type="text/css" href="{{ "css/styles.css" | relURL}}" />
+  	
+  	{{- range .Site.Params.customCSS -}}
+    <link rel='stylesheet' href='{{ . | absURL }}'>
+  	{{- end -}}
