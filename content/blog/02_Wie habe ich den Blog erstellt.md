@@ -40,6 +40,6 @@ Dann veränderte ich die Farben. Nur Schwarz-Weiß wird doch langweilig; Farbe z
 
 Schlussendlich war ich zufrieden und wie ich meine, ist mir eine besonders ästhetische, elegante Seite gelungen. Für das erste Mal sicher in Ordnung.
 
-Da die Seite nun fertiggestellt war, konnte ich sie endlich auf GitHub hochladen. GitHub bietet auch eine Möglichkeit über GitHub Pages die Webseite gleichzeitig zu hosten. Hierzu muss sie jedoch zuerst noch durch Hugo gebaut werden, denn bisher ist sie nur ein Hugo-Projekt. Um das zu umgehen, habe ich mein Git-Repository mit [Render](https://www.render.com/) verbunden, damit dies automatisch ausführt wird. Somit muss ich nur Veränderungen auf GitHub hochladen und meine Webseite wird gebaut.
+Da die Seite nun fertiggestellt war, konnte ich sie endlich auf GitHub hochladen. GitHub bietet auch eine Möglichkeit über GitHub Pages die Webseite gleichzeitig zu hosten. Hierzu muss sie jedoch zuerst noch durch Hugo gebaut werden, denn bisher ist sie nur ein Hugo-Projekt. Um das zu umgehen, habe ich mein Git-Repository mit [Render](https://www.render.com/) verbunden, damit dies automatisch ausgeführt wird. Somit muss ich nur meine Veränderungen auf GitHub hochladen und meine Webseite wird gebaut.
 
 Falls du Fragen oder Anmerkungen hast, schreib mir. Einzelne Schritte könnte ich dann noch näher ausführen, vielleicht auch in einer Blogserie. Mein Weg zu einem Blog war sicherlich beschwerlicher und mühsamer als mit einer Bloggingplattform, dafür war er aber wesentlich interessanter und lehrreicher.
