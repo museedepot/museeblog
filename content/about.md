@@ -15,7 +15,7 @@ Da ich meine Berichte veröffentliche und du sie daher lesen kannst, verwandelt 
 
 Der zweite Aspekt, wieso ich den Blog ins Leben gerufen habe, ist der Wunsch zu schreiben. Ich möchte es üben. Deswegen werde ich bei meinen Texten etliches austesten und versuchen. Sozusagen ein kleines Schreiblabor. Ich hoffe die Texte werden dir gefallen, auch wenn reichlich Fehler vorhanden sein werden. Ein guter Lektor fehlt. 😉 
 
-Außerdem wollte ich schon lange eine eigene Website aufbauen. Die technischen Aspekte dahinter erforschen. Nachdem der Blog online ist, ist mir das auch gelungen, aber ich werde weiterhin versuchen ihn zu verbessern. Der gesamte Blog ist auf [GitHub](https://github.com/museedepot/museedepot) einsehbar.
+Außerdem wollte ich schon lange eine eigene Website aufbauen. Die technischen Aspekte dahinter erforschen. Nachdem der Blog online ist, ist mir das auch gelungen, aber ich werde weiterhin versuchen ihn zu verbessern. Der gesamte Blog ist auf [GitHub](https://github.com/museedepot/museedepotsource) einsehbar.
 
 Wenn du in Kontakt mit mir treten willst, sei es für Anregungen, Feedback, Fragen, oder sonst was, schreib am besten eine Mail an [museedepot@protonmail.com](mailto:museedepot@protonmail.com), oder benutze die Social Media Icons in der Titelleiste. Es gibt auch einen RSS-Feed, damit du immer am Laufenden bist. 
 

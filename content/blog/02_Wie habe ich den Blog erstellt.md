@@ -16,9 +16,9 @@ Zu Beginn war natürlich Recherche angebracht. Das erste Mal sollte doch glücke
 
 Domain Name. Ein Blog braucht eine eigene Adresse, klar. Hosting. Irgendjemand muss meine Texte lagern. Beides kostet. Da kommt die erste Möglichkeit billiger. Geiz. Schließlich, auf der Suche nach einem günstigen Anbieter, fand ich ein unschlagbares Angebot. Gratis, aber nur bei Static Sites. Hä, OK. Aber was ist das? Ein paar Duckduckgo-Suchen und ich hatte die Lösung.
 
-## Static Sites Generator
+## Static Site Generator
 
-Static Sites werden vorab geschrieben und bei Abfrage versendet. Sie bestehen praktisch nur aus einer HTML-Datei; können aber auch eine CSS-Datei für die Gestaltung der Website und eine JavaScript-Datei für die Ausführung von Befehlen enthalten. Deswegen sind sie ausgesprochen leicht und schnell. Das Grundgerüst meines Blogs besteht lediglich aus einigen HTML-Dateien und einer CSS-Datei und benötigt deshalb nur 27kB. Auf meiner [GitHub-Seite](https://github.com/museedepot) kannst du alle Dateien betrachten.
+Static Sites werden vorab geschrieben und bei Abfrage versendet. Sie bestehen praktisch nur aus einer HTML-Datei; können aber auch eine CSS-Datei für die Gestaltung der Website und eine JavaScript-Datei für die Ausführung von Befehlen enthalten. Deswegen sind sie ausgesprochen leicht und schnell. Das Grundgerüst meines Blogs besteht lediglich aus einigen HTML-Dateien und einer CSS-Datei und benötigt deshalb nur 27kB. Auf meiner [GitHub-Seite](https://github.com/museedepot/museedepotsource) kannst du alle Dateien betrachten.
 
 Demgegenüber stehen Dynamic Sites. Bei jeder Abfrage wird eine HTML-Datei nach einem festgelegten Muster neu generiert und dann versendet.
 
@@ -40,6 +40,6 @@ Dann veränderte ich die Farben. Nur Schwarz-Weiß wird doch langweilig; Farbe z
 
 Schlussendlich war ich zufrieden und wie ich meine, ist mir eine besonders ästhetische, elegante Seite gelungen. Für das erste Mal sicher in Ordnung.
 
-Da die Seite nun fertiggestellt war, konnte ich sie endlich auf GitHub hochladen und damit ins Netz stellen.
+Da die Seite nun fertiggestellt war, konnte ich sie endlich auf GitHub hochladen. GitHub bietet auch eine Möglichkeit über GitHub Pages die Webseite gleichzeitig zu hosten. Hierzu muss sie jedoch zuerst noch durch Hugo gebaut werden, denn bisher ist sie nur ein Hugo-Projekt. Um das zu umgehen, habe ich mein Git-Repository mit [Render](https://www.render.com/) verbunden, damit dies automatisch ausführt wird. Somit muss ich nur Veränderungen auf GitHub hochladen und meine Webseite wird gebaut.
 
-Falls du Fragen oder Anmerkungen hast, schreib mir. Einzelne Schritte könnte ich auch dann noch näher ausführen, vielleicht auch in einer Blogserie. Mein Weg zu einem Blog war sicherlich beschwerlicher und mühsamer als mit einer Bloggingplattform, dafür war er aber wesentlich interessanter und lehrreicher.
+Falls du Fragen oder Anmerkungen hast, schreib mir. Einzelne Schritte könnte ich dann noch näher ausführen, vielleicht auch in einer Blogserie. Mein Weg zu einem Blog war sicherlich beschwerlicher und mühsamer als mit einer Bloggingplattform, dafür war er aber wesentlich interessanter und lehrreicher.

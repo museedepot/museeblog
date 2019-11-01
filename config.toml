@@ -9,7 +9,7 @@ paginate = 6
 [author]
     name = "Muséedepot"
     mail = "museedepot@protonmail.com"
-    github = "museedepot"
+    github = "museedepot/museedepotsource"
     #gitlab = ""
     #linkedin = ""
     paypal = "https://paypal.me/museedepot?locale.x=de_DE"
