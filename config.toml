@@ -1,5 +1,5 @@
-#baseurl = "https://www.museedepot.blog/"
-title = "MuséeDepot"
+baseurl = "https://museeblog.at/"
+title = "MuséeBlog"
 canonifyurls = true
 languagecode = "de-DE"
 summaryLength = 25
@@ -9,7 +9,7 @@ paginate = 6
 [author]
     name = "Muséedepot"
     mail = "museedepot@protonmail.com"
-    github = "museedepot/museedepotsource"
+    github = "museedepot/museeblog"
     #gitlab = ""
     #linkedin = ""
     paypal = "https://paypal.me/museedepot?locale.x=de_DE"
