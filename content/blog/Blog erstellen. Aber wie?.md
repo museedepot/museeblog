@@ -8,7 +8,7 @@ src: ""
 description: "In diesem Beitrag erfährt ihr, wie ich meinen Blog mithilfe von Hugo und Github Pages gestartet habe."
 ---
 
-Nach dem Besuch des Leopoldsmuseums ist ja einige Zeit vergangen. Was habe ich bis dahin gemacht? Keine Museen besucht? Ja, aber dafür hart gearbeitet. Der Blog wurde erstellt und schließlich ins World Wide Web gestellt. Wie habe ich das gemacht? Das erfährst du in diesem Beitrag. Ein Blick hinter die Kulissen sozusagen. <!--more-->
+Seit dem Besuch des Leopoldmuseums ist ja einige Zeit vergangen. Was habe ich bis dahin gemacht? Keine Museen besucht? Ja, aber dafür hart gearbeitet. Der Blog wurde erstellt und schließlich ins World Wide Web gestellt. Wie habe ich das gemacht? Das erfährst du in diesem Beitrag. Ein Blick hinter die Kulissen sozusagen. <!--more-->
 
 ## Allgemein
 
