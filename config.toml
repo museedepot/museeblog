@@ -5,6 +5,7 @@ languagecode = "de-DE"
 summaryLength = 25
 enableEmoji = true
 paginate = 6
+enableRobotsTXT= true
 
 [author]
     name = "Muséedepot"

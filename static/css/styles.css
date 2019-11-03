@@ -1,26 +1,5 @@
 /*  
 Globals
-
-Colors
-
-.color-primary-0 { color: #EF5D5D }
-.color-primary-1 { color: #FFB2B2 }
-.color-primary-2 { color: #FF8787 }
-.color-primary-3 { color: #D43838 }
-.color-primary-4 { color: #AD1B1B }
-
-.color-secondary-1-0 { color: #388F8F }
-.color-secondary-1-1 { color: #92D1D1 }
-.color-secondary-1-2 { color: #5BACAC }
-.color-secondary-1-3 { color: #227F7F }
-.color-secondary-1-4 { color: #106868 }
-
-.color-secondary-2-0 { color: #B2DF57 }
-.color-secondary-2-1 { color: #DEF7AC }
-.color-secondary-2-2 { color: #CBF180 }
-.color-secondary-2-3 { color: #95C634 }
-.color-secondary-2-4 { color: #74A219 }
-
 */
 
 body {
@@ -37,6 +16,7 @@ h1 {
   margin: 0em;
   padding: 0.5em 0;
   color: #388F8F;
+  line-height: 1.2;
 }
 h2,
 h3,
@@ -47,6 +27,7 @@ h6 {
   margin: 0em;
   padding-top: 0.5em;
   color: #5BACAC;
+  line-height: 1.2;
 }
 
 
@@ -114,16 +95,12 @@ Header
 */
 
 #container header {
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
-}
-
-#container header h1 {
-  padding: 0.5em 0 0 0;
+  margin-top: 2em;
+  margin-bottom: 0.2em;
 }
 
 #container header h1 a {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   color: #ef5d5d;
   font-family: "Cinzel Decorative", cursive;
 }
@@ -162,7 +139,7 @@ Header
     float: none;
   }
   #container header li {
-    margin: 0 1em 0 0;
+    margin: 0 0.8em 0 0;
   }
 }
 
@@ -227,16 +204,12 @@ Content Global
   hyphens: auto;
 }
 
-#container main h1 {
-  font-size: 2rem;
-  color: #388F8F;
+#container main h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
 }
-
 
 #container main em a {
   color: #FF8787;
-  padding: 2px;
-  border-radius: 6px;
   transition: color 500ms ease-in-out;
 }
 
@@ -461,10 +434,11 @@ Comments
 */
 
 .meta-aside, #container main section#home ul li aside, #container main article aside {
-  margin: 0.5em 0;
+  margin: 0;
   font-family: "Josefin Sans", sans-serif;
   color: #666666;
   font-size: 0.8em;
+  line-height: 1.2;
 }
 
 .meta-aside ul, #container main section#home ul li aside ul, #container main article aside ul {
@@ -714,7 +688,7 @@ figcaption {
   padding: 0;
   margin-top: 0.8em;
   font-style: italic;
-  font-size: 0.7em;
+  font-size: 0.8em;
   text-align: center;
 }
 
@@ -724,7 +698,7 @@ figcaption h4{
 }
 
 figcaption p {
-  font-size: 0.8em;
+  font-size: 0.9em;
   margin: 0;
 }
 
