@@ -8,7 +8,7 @@ tags: [
     "Leopoldmuseum",
     "WienerModerne",
 ]
-title: Leopoldmuseum »Wien 1900« 
+title: »Wien 1900« Leopoldmuseum
 description: "Austellungsbesuch »Wien 1900« im Leopoldmuseum"
 src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Gustav_Klimt_-_Death_and_Life_-_Google_Art_Project.jpg/1177px-Gustav_Klimt_-_Death_and_Life_-_Google_Art_Project.jpg#mid"
 ---
