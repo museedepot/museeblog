@@ -6,6 +6,7 @@ summaryLength = 25
 enableEmoji = true
 paginate = 6
 enableRobotsTXT= true
+description = "Mein Blog gefüllt mit Erlebnisberichten zu Ausflügen, Ausstellungen und Museen. Manchmal schreib ich auch Geschichten. Schau ihn dir an."
 
 [author]
     name = "Muséedepot"

@@ -7,13 +7,13 @@ tags: [
 "Zwischenkriegszeit",
 "Geschichte",
 ]
-img: "/img/MUSA/steuern.jpg#float-right-small"
-description: "Bericht über Ausstellung »Das Rote Wien« im Wien Museum MUSA"
+img: ""
+summary: "![/img/MUSA/steuern.jpg#float-right-small](/img/MUSA/steuern.jpg#float-right-small)
+
+Eine kalte Woche. Brr. Zum verlängerten Wochenende wurde es glücklicherweise wärmer. Ein paar schöne Herbsttage bevor der Winter kommt. Diesmal besuchte ich zur späten Stunde die Ausstellung »Das Rote Wien« im Wien Museum MUSA. Eine kulturhistorische Ausstellung im MUSA? Ja, du hast richtig gelesen. Denn das Wien Museum wird zurzeit umgebaut, weshalb das MUSA als eines der Ausweichquartiere dient."
 ---
 
 Eine kalte Woche. Brr. Zum verlängerten Wochenende wurde es glücklicherweise wärmer. Ein paar schöne Herbsttage bevor der Winter kommt. Diesmal besuchte ich zur späten Stunde die Ausstellung »Das Rote Wien« im Wien Museum MUSA. Eine kulturhistorische Ausstellung im MUSA? Ja, du hast richtig gelesen. Denn das Wien Museum wird zurzeit umgebaut, weshalb das MUSA als eines der Ausweichquartiere dient.
-
-<!--more-->
 
 Das MUSA liegt gleich neben dem Wiener Rathaus in der Felberstraße. Es ist somit einfach zu erreichen. Das Museumsschild leuchtet, nicht nur bei Nacht, von der braun-schwarzen Steinfassade. Arkaden schützen den Fußgänger vor Sonne, Schnee und Regen.
 
@@ -83,6 +83,6 @@ https://www.wienmuseum.at/
 
 __Sonstiges:__
 
-Zur Ausstellung gibt auch einen dicken Schmöker für 39 € als Ausstellungskatalog: _Das Rote Wien. 1919-1934. Ideen, Debatten, Praxis_ ISBN 978-3-03561-957-7
+Zur Ausstellung gibt es auch einen dicken Schmöker für 39 € als Ausstellungskatalog: _Das Rote Wien. 1919-1934. Ideen, Debatten, Praxis_ ISBN 978-3-03561-957-7
 
 

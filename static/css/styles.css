@@ -517,8 +517,7 @@ img[src*="float"] {
   justify-content: flex-start;
 }
 
-figure.float, 
-img[src*="float"] {
+figure.float {
   margin: 0 1em 0em -225px;
 }
 
@@ -560,8 +559,7 @@ img[src*="float-right"] {
   justify-content: flex-start;
 }
 
-figure.float-right, 
-img[src*="float-right"] {
+figure.float-right {
   margin: 0em -225px 0em 1em;
 }
 
@@ -593,8 +591,7 @@ Image float-small
 
 .float-image-small, 
 figure.float-small img, 
-figure.float-small, 
-img[src*="float-small"] {
+figure.float-small {
   width: 175px;
   float: left;
   border-radius: 15px;
@@ -603,9 +600,18 @@ img[src*="float-small"] {
   justify-content: flex-start;
 }
 
-figure.float-small, 
-img[scr*="float-small"] {
-  margin: 0 1em 0em -225px;
+img[src*="float-small"] {
+  width: 175px;
+  float: left;
+  border-radius: 15px;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  margin: -2em 1em 0em -225px;
+}
+
+figure.float-small {
+  margin: 0 1em 0em -200px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -635,8 +641,8 @@ Image float-right-small
 
 .float-image-right-small, 
 figure.float-right-small img, 
-figure.float-right-small, 
-img[src*="float-right-small"] {
+figure.float-right-small
+{
   width: 175px;
   float: right;
   border-radius: 15px;
@@ -645,10 +651,22 @@ img[src*="float-right-small"] {
   justify-content: flex-start;
 }
 
-figure.float-right-small, 
-img[scr*="float-right-small"] {
-  margin: 0em -225px 0em 1em;
+figure.float-right-small {
+  margin: 0em -225px 0em 1em;  
 }
+
+
+img[src*="float-right-small"] {
+  width: 175px;
+  float: right;
+  border-radius: 15px;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  margin: -4em -200px 0em 1em;
+}
+
+
 
 @media only screen and (max-width: 1000px) {
   .float-image-right-small, 
