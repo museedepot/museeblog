@@ -38,7 +38,7 @@ a {
 }
 
 a:hover {
-  color: #FF8787;
+  color: #F77777;
 }
 
 
@@ -124,7 +124,7 @@ Header
 }
 
 #container header li a {
-  color: #FF8787;
+  color: #F77777;
   transition: color 500ms ease-in-out;
   padding: 4px;
   border-radius: 8px;
@@ -176,7 +176,7 @@ Navigation
 
 #container nav a{
   padding: 6px;
-  color: #5BACAC;
+  color: #388F8F;
   border-radius: 8px;
   transition: 500ms ease-in-out;
 }
@@ -209,7 +209,7 @@ Content Global
 }
 
 #container main em a {
-  color: #FF8787;
+  color: #F77777;
   transition: color 500ms ease-in-out;
 }
 

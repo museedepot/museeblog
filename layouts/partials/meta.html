@@ -1,6 +1,14 @@
 <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="{{ .Site.Params.description | default "Mein Blog gefüllt mit Erlebnisberichten zu Ausflügen, Ausstellungen und Museen. Schau ihn dir an." }}" />
+
+{{ if .Description }}
+<meta name="description" content="{{ .Description }}">
+{{ else if .IsPage }}
+<meta name="description" content="{{ .Summary | plainify }}">
+{{ else }}
+<meta name="description" content="Mein Blog gefüllt mit Erlebnisberichte zu Ausflüge, Ausstellungen und Museen. Manchmal schreib ich auch Geschichten. Schau ihn dir an.">
+{{ end }}
+
   <meta name="author" content="{{ .Params.Author | default .Site.Author.name }}" />
   {{- with .OutputFormats.Get "rss" -}}
   	{{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}

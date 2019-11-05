@@ -9,7 +9,7 @@ tags: [
     "WienerModerne",
 ]
 title: »Wien 1900« Leopoldmuseum
-description: "Austellungsbesuch »Wien 1900« im Leopoldmuseum"
+description: "Austellungsbericht »Wien 1900« im Leopoldmuseum. Es nieselt leicht; er färbt die Straße schwarz. Sprühnebel. Was tun? Ein Tag, um ins Museum zu gehen, um eine Ausstellung zu besuchen? Das Leopoldmuseum hat eine über die Wiener Moderne zusammengestellt. Die habe ich schon lange im Hinterkopf."
 src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Gustav_Klimt_-_Death_and_Life_-_Google_Art_Project.jpg/1177px-Gustav_Klimt_-_Death_and_Life_-_Google_Art_Project.jpg#mid"
 ---
 

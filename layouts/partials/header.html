@@ -3,7 +3,7 @@
 <html lang="{{ .Site.LanguageCode | default "de" }}">
 
 <head>
-  <title>{{ .Site.Title }}</title>
+  <title>{{ .Page.Title }}</title>
   {{ partial "meta" . }}
   {{ partialCached "header_includes" . -}}
 </head>
