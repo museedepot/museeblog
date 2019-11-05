@@ -1,5 +1,5 @@
 baseurl = "https://museeblog.at/"
-title = "MuséeBlog"
+title = "MuséeBlog: Ausstellungen, Museen, Geschichten"
 canonifyurls = true
 languagecode = "de-DE"
 summaryLength = 25
@@ -20,4 +20,4 @@ enableRobotsTXT= true
     #patreon = ""
 
 [params]
-    tagline = "Ausflüge, Austellungen, Museen, Geschichten"
+    tagline = "Ausflüge, Ausstellungen, Museen, Geschichten"
