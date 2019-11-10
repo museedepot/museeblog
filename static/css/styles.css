@@ -49,7 +49,16 @@ blockquote {
   color: #666666;
   font-family: "Josefin Sans", sans-serif;
   font-style: italic;
+  font-size: 1em;
+}
+
+ol {
+  font-family: "Josefin Sans", sans-serif;
   font-size: 0.8em;
+}
+
+ol a{
+  text-decoration: underline;
 }
 
 /*  
@@ -58,11 +67,20 @@ Swup transition
 
 .transition-fade {
   opacity: 1;
-  transition: 0.8s;
+  transition: 0.5s;
 }
 
 html.is-animating .transition-fade {
-  opacity: 0;
+  opacity: 0.1;
+}
+
+.transition-stay {
+  transition: 0.5s;
+  opacity: 1;
+}
+
+html.is-animating .transition-stay {
+  opacity: 0.1;
 }
 
 /*  
@@ -94,9 +112,13 @@ Container global
 Header
 */
 
-#container header {
+#container header{
   margin-top: 2em;
-  margin-bottom: 0.2em;
+  margin-bottom: 0em;
+}
+
+#container header h1{
+  padding: 0;
 }
 
 #container header h1 a {
@@ -145,15 +167,14 @@ Header
 
 /*  
 Navigation
+  position: sticky;
+  top: 0px;
 */
 
 #container nav {
   width: 100%;
-  position: sticky;
-  top: 0px;
   background: #fffcfc;
   margin:0;
-  
 }
 
 #container nav ul {
@@ -298,7 +319,11 @@ Content Single
 
 #container main article p a {
   text-decoration: underline;
-  font-style: italic;
+}
+
+#container main article p sup a{
+  text-decoration: none;
+  font-style: none;
 }
 
 #container main article p code {
@@ -464,6 +489,24 @@ Image global
 /*  
 Image full
 */
+
+}
+
+.full-image, figure.full img, img[src*="full"] {
+  width: 100%;
+  box-shadow: 3px 3px 5px grey;
+}
+
+@supports (width: 100vw) {
+  .full-image, figure.full img, img[src*="full"] {
+    width: 96vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -48vw;
+    margin-right: -48vw;
+  }
+}
 
 /*  
 Image Figure mid

@@ -1,5 +1,5 @@
 baseurl = "https://museeblog.at/"
-title = "MuséeBlog: Ausstellungen, Museen, Geschichten"
+title = "MuséeBlog"
 canonifyurls = true
 languagecode = "de-DE"
 summaryLength = 25

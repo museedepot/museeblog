@@ -5,23 +5,26 @@
             </a></h6>
     </footer>
 </div>
+
 <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
 <script src="https://unpkg.com/@swup/scroll-plugin@latest/dist/SwupScrollPlugin.min.js"></script>
 <script>
 	const options = {
+		animateHistoryBrowsing: true,
+		linkSelector:
+    		'a[href^="' +
+    		window.location.origin +
+    		'"]:not([data-no-swup]), a[href^="/"]:not([data-no-swup]), a[href^="#:"]:not([data-no-swup])',
 		plugins: [new SwupScrollPlugin({
-					animateScroll: false,
+					animateScroll: true,
 					doScrollingRightAway: false,
-					scrollFriction: 0.5,
-					scrollAcceleration: 0.02,
+					scrollFriction: 0.3,
+					scrollAcceleration: 0.03,
 			  		})]
 		};
 	const swup = new Swup(options);
 </script>
 
-{{ if .Site.GoogleAnalytics }}
-{{ template "_internal/google_analytics_async.html" . }}
-{{ end }}
 </body>
 
 </html>

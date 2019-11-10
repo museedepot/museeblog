@@ -7,6 +7,9 @@
             <a href="{{.Permalink}}"><i class="fa fa-chevron-left"></i></a>
         </li>
         {{ end }}
+        <li>
+            <a href="{{.Site.BaseURL}}"><i class="fa fa-home fa-lg"></i></a>
+        </li>
         {{ with .PrevInSection }}
         <li>
             <a href="{{.Permalink}}"><i class="fa fa-chevron-right"></i></a>
