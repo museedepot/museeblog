@@ -4,15 +4,15 @@
     <ul>
         {{ with .NextInSection }}
         <li>
-            <a href="{{.Permalink}}"><i class="fa fa-chevron-left"></i></a>
+            <a href="{{.Permalink}}"><i class="las la-chevron-left la-lg"></i></a>
         </li>
         {{ end }}
         <li>
-            <a href="{{.Site.BaseURL}}"><i class="fa fa-home fa-lg"></i></a>
+            <a href="{{.Site.BaseURL}}"><i class="las la-home la-lg"></i></a>
         </li>
         {{ with .PrevInSection }}
         <li>
-            <a href="{{.Permalink}}"><i class="fa fa-chevron-right"></i></a>
+            <a href="{{.Permalink}}"><i class="las la-chevron-right la-lg"></i></a>
         </li>
         {{ end }}
     </ul>

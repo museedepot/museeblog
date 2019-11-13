@@ -11,33 +11,33 @@
       <li><a href="/{{ .Lang }}">{{ .LanguageName }}</a></li>
       {{ end }}
       {{ end }}
-        <li><a href="{{.Site.BaseURL}}index.xml" title="RSS"><i class="fa fa-rss fa-lg" aria-hidden="true"></i></a></li>
+        <li><a href="{{.Site.BaseURL}}index.xml" title="RSS"><i class="la la-rss la-lg" aria-hidden="true"></i></a></li>
       {{ if .Site.Author.mail }}
-        <li><a href="mailto:{{ .Site.Author.mail }}" title="Schick eine Mail"><i class="fa fa-at fa-lg" aria-hidden="true"></i></a>
+        <li><a href="mailto:{{ .Site.Author.mail }}" title="Schick eine Mail"><i class="la la-at la-lg" aria-hidden="true"></i></a>
         </li>
       {{ end }}
       {{ if .Site.Author.twitter }}
         <li><a href="https://twitter.com/{{ .Site.Author.twitter }}" title="Zwitschern">
-          <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+          <i class="lab la-twitter la-lg" aria-hidden="true"></i>
         </a></li>
       {{ end }} {{ if .Site.Author.linkedin }}
-        <li><a href="https://www.linkedin.com/in/{{ .Site.Author.linkedin }}" title="Linkedin"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/{{ .Site.Author.linkedin }}" title="Linkedin"><i class="lab la-linkedin la-lg" aria-hidden="true"></i></a></li>
       {{ end }} {{ if .Site.Author.github }}
         <li>
           <a href="https://github.com/{{ .Site.Author.github }}" title="Die Blogdateien">
-            <i class="fa fa-github-alt fa-lg" aria-hidden="true"></i>
+            <i class="lab la-github-alt la-lg" aria-hidden="true"></i>
           </a>
       </li>
       {{ end }} {{ if .Site.Author.gitlab }}
-        <li><a href="https://gitlab.com/{{ .Site.Author.gitlab }}"><i class="fa fa-gitlab fa-lg" aria-hidden="true"></i></a></li>
+        <li><a href="https://gitlab.com/{{ .Site.Author.gitlab }}"><i class="lab la-gitlab la-lg" aria-hidden="true"></i></a></li>
       {{ end }} {{ if .Site.Author.paypal }}
-        <li><a href="{{ .Site.Author.paypal }}" title="Eine Kaffeespende"><i class="fa fa-paypal fa-lg" aria-hidden="true"></i></a></li>
+        <li><a href="{{ .Site.Author.paypal }}" title="Eine Kaffeespende"><i class="lab la-paypal la-lg"></i></a></li>
       {{ end }} {{ if .Site.Author.patreon }}
-        <li><a href="https://patreon.com/{{ .Site.Author.patreon }}"><i class="fa fa-patreon fa-lg" aria-hidden="true"></i></a></li>
+        <li><a href="https://patreon.com/{{ .Site.Author.patreon }}"><i class="lab la-patreon la-lg" aria-hidden="true"></i></a></li>
       {{ end }} {{ if .Site.Author.instagram }}
-        <li><a href="https://instagram.com/{{ .Site.Author.instagram }}"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+        <li><a href="https://instagram.com/{{ .Site.Author.instagram }}"><i class="lab la-instagram la-lg" aria-hidden="true"></i></a></li>
       {{ end }} {{ if .Site.Author.mastodon }}
-        <li><a href="https://mastodon.com/{{ .Site.Author.mastodon }}" title="Tröten"><i class="fa fa-mastodon fa-lg" aria-hidden="true"></i></a></li>
+        <li><a href="https://mastodon.com/{{ .Site.Author.mastodon }}" title="Tröten"><i class="lab la-mastodon la-lg" aria-hidden="true"></i></a></li>
       {{ end }}
     </ul>
 </header>

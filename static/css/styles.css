@@ -7,38 +7,45 @@ body {
   padding: 0;
   font-family: "Alegreya", serif;
   font-weight: 500;
-  color: #382222;
-  background-color: #fffcfc;
+  color: #2b2411;
+  background-color: #fffcde;
 }
 
-h1 {
-  font-family: "Josefin Sans", sans-serif;
-  margin: 0em;
-  padding: 0.5em 0;
-  color: #388F8F;
-  line-height: 1.2;
-}
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
   font-family: "Josefin Sans", sans-serif;
-  margin: 0em;
   padding-top: 0.5em;
-  color: #5BACAC;
+  color: #257883;
   line-height: 1.2;
+  font-size: 1.2em
+}
+
+h1 {
+  font-size: 1.6em;
+  margin: 0.5em 0;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1.3em;
 }
 
 
 a {
   color: #666666;
   text-decoration: none;
-  transition: color 500ms ease-in-out;
+  transition: color 400ms ease-in-out;
 }
 
 a:hover {
-  color: #F77777;
+  color: #FF5757;
 }
 
 
@@ -52,9 +59,19 @@ blockquote {
   font-size: 1em;
 }
 
+/*  
+Footnotes
+*/
+
+hr {
+  border: 1px solid #666666;
+}
+
 ol {
   font-family: "Josefin Sans", sans-serif;
   font-size: 0.8em;
+  line-height: 1.2;
+  color: #666666;
 }
 
 ol a{
@@ -113,32 +130,34 @@ Header
 */
 
 #container header{
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 0em;
 }
 
 #container header h1{
   padding: 0;
+  margin: 0;
 }
 
 #container header h1 a {
   font-size: 2.8rem;
-  color: #ef5d5d;
+  color: #EC4B4B;
   font-family: "Cinzel Decorative", cursive;
 }
 
 #container header p {
   font-family: "Josefin Sans", sans-serif;
-  color: #227F7F;
+  color: #257883;
   margin: 0.5em;
 }
 
 #container header ul {
   display: flex;
-  margin: 0.5em;
-  padding: 0;
+  margin: 0em;
+  padding: 0.5em;
   list-style: none;
   float: right;
+  border-bottom: solid 1px #dbe0c0;
 }
 
 #container header li {
@@ -146,14 +165,13 @@ Header
 }
 
 #container header li a {
-  color: #F77777;
+  color: #FF5757;
   transition: color 500ms ease-in-out;
   padding: 4px;
-  border-radius: 8px;
 }
 
 #container header li a:hover {
-  color: #D43838;
+  color: #A11111;
 }
 
 @media only screen and (max-width: 500px) {
@@ -172,23 +190,19 @@ Navigation
 */
 
 #container nav {
-  width: 100%;
-  background: #fffcfc;
-  margin:0;
 }
 
 #container nav ul {
-  max-width: 600px;
-  width: auto;
-  border-bottom: solid 2px #cecece;
+  border-bottom: solid 2px #dbe0c0;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1.2em;
+  font-size: 1.3em;
   margin: auto;
   padding: 0.5em;
   list-style: none;
   display: flex;
   flex-flow: row;
   justify-content: flex-end;
+  overflow: hidden;
 }
 
 #container nav li{
@@ -197,19 +211,19 @@ Navigation
 
 #container nav a{
   padding: 6px;
-  color: #388F8F;
+  color: #257883;
   border-radius: 8px;
-  transition: 500ms ease-in-out;
+  transition: 400ms ease-in-out;
 }
 
 #container nav a:hover {
   background: #92D1D1;
-  color: #227F7F;
+  color: #13636E;
 }
 
 #container nav a.active {
   background: #92D1D1;
-  color: #227F7F;
+  color: #13636E;
 }
 
 /*  
@@ -225,13 +239,9 @@ Content Global
   hyphens: auto;
 }
 
-#container main h1, h2, h3, h4, h5, h6 {
-  line-height: 1.2;
-}
-
 #container main em a {
-  color: #F77777;
-  transition: color 500ms ease-in-out;
+  color: #FF5757;
+  transition: color 400ms ease-in-out;
 }
 
 #container main em a:hover {
@@ -249,12 +259,12 @@ Content Home
 }
 
 #container main section#home h1 {
-  border-top: 1px solid #cecece;
+  border-top: 1px solid #dbe0c0;
   margin-top: 1em;
 }
 
 #container main section#home h1 a {
-  color: #388F8F;
+  color: #257883;
 }
 
 #container main section#home h1:first-child {
@@ -267,11 +277,11 @@ Content Home
 }
 
 #container main section#home a i{
-  color: #EF5D5D;
+  color: #FF5757;
   padding: 6px 4px;
   border-radius: 8px;
   font-family: "Josefin Sans", sans;
-  transition: 500ms ease-in-out;
+  transition: 400ms ease-in-out;
 }
 
 #container main section#home i:hover {
@@ -372,20 +382,20 @@ Content Post Navigation
   list-style: none;
   justify-content: space-between;
   flex-flow: row wrap;
-  border-top: 1px solid #cecece;
+  border-top: 1px solid #dbe0c0;
   font-size: 1em;
 }
 
 #container main section.post-nav a {
   padding: 5px 10px;
-  color: #5BACAC;
+  color: #257883;
   border-radius: 10px;
   transition: 500ms ease-in-out;
 }
 
 #container main section.post-nav a:hover {
   background: #92D1D1;
-  color: #227F7F;
+  color: #13636E;
 }
 
 /*  
@@ -393,12 +403,13 @@ Footer
 */
 
 #container footer {
-  border-top: solid 2px #cecece;
+  border-top: solid 2px #dbe0c0;
   padding: 1em;
   margin-bottom: 1em;
 }
 
 #container footer h6 {
+  margin: 0;
   font-size: 0.8em;
   text-align: center;
   font-family: "Cinzel Decorative", cursive;
@@ -413,7 +424,7 @@ Comments
 -ms-flex-align: center;
 align-items: center;
 background-color: #fff;
-border: 1px solid #cecece;
+border: 1px solid #dbe0c0;
 border-radius: 3px;
 color: #000000;
 display: -webkit-inline-box;
@@ -450,7 +461,7 @@ width: 100%;
 }
 
 #container button:hover {
- border: solid #cecece 2px;
+ border: solid #dbe0c0 2px;
  text-decoration: none;
 }
 
@@ -517,7 +528,6 @@ figure.mid,
 figure.mid img, 
 img[src*="mid"] {
   width: 100%;
-  border-radius: 30px;
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
@@ -539,7 +549,7 @@ img[src*="mid"] {
     img[src*="mid"] {
       width: 100%;
       margin: auto;
-      border-radius: 15px;
+      ;
     }
   }
 }
@@ -554,7 +564,7 @@ figure.float,
 img[src*="float"] {
   width: 325px;
   float: left;
-  border-radius: 15px;
+  ;
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
@@ -596,7 +606,7 @@ figure.float-right,
 img[src*="float-right"] {
   width: 325px;
   float: right;
-  border-radius: 15px;
+  ;
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
@@ -637,7 +647,7 @@ figure.float-small img,
 figure.float-small {
   width: 175px;
   float: left;
-  border-radius: 15px;
+  ;
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
@@ -646,7 +656,7 @@ figure.float-small {
 img[src*="float-small"] {
   width: 175px;
   float: left;
-  border-radius: 15px;
+  ;
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
@@ -688,7 +698,7 @@ figure.float-right-small
 {
   width: 175px;
   float: right;
-  border-radius: 15px;
+  ;
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
@@ -702,7 +712,7 @@ figure.float-right-small {
 img[src*="float-right-small"] {
   width: 175px;
   float: right;
-  border-radius: 15px;
+  ;
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
@@ -749,18 +759,19 @@ figcaption {
   padding: 0;
   margin-top: 0.8em;
   font-style: italic;
-  font-size: 0.8em;
   text-align: center;
 }
 
 figcaption h4{
+  font-size: 0.8em;
   margin:0;
   color: #666666;
 }
 
 figcaption p {
-  font-size: 0.9em;
+  font-size: 0.8em;
   margin: 0;
+  line-height: 1.2;
 }
 
 /*  
@@ -769,11 +780,11 @@ Table
 
 table {
   width: 100%;
-  border-bottom: solid 1px #cecece;
+  border-bottom: solid 1px #dbe0c0;
 }
 
 table thead {
-  background-color: #cecece;
+  background-color: #dbe0c0;
 }
 
 @media only screen and (max-width: 800px) {
@@ -798,7 +809,7 @@ ul.pagination {
   list-style: none;
   padding: 1em;
   margin: 1em 0 0 0;
-  border-top: 1px solid #cecece;
+  border-top: 1px solid #dbe0c0;
 }
 
 ul.pagination span {
@@ -807,7 +818,7 @@ ul.pagination span {
 }
 
 ul.pagination a {
-  color: #5BACAC;
+  color: #257883;
   padding: 5px 10px;
   border-radius:10px;
   transition: 500ms ease-in-out;
@@ -815,7 +826,7 @@ ul.pagination a {
 
 ul.pagination a:hover {
   background: #92D1D1;
-  color: #227F7F;
+  color: #13636E;
 }
 
 /*
@@ -825,6 +836,7 @@ ul.pagination a:hover {
 ul.share {
   display: flex;
   justify-content: center;
+  align-content: center;
   flex-flow: row wrap;
   padding: 0;
   font-family: "Josefin Sans", sans-serif;
@@ -832,32 +844,26 @@ ul.share {
 }
 
 ul.share li {
-  margin: 0 0.2em;
+  margin: auto 0.1em;
 }
 
 ul.share span {
   color: #666666;
-  padding-right: 8px;
 }
 
 ul.share a{
-  padding: 8px;
   color: #666666;
-  border-radius: 8px;
   transition: 500ms ease-in-out;
 }
 
 ul.share li a.twitter:hover {
-  background: #1da1f2;
-  color: #fffcfc;
+  color: #1da1f2;
 }
 
 ul.share li a.mail:hover {
-  background: #7D7D7D;
-  color: #fffcfc;
+  color: #000000;
 }
 
 ul.share li a.pinterest:hover {
-  background: #BD081C;
-  color: #fffcfc;
+  color: #BD081C;
 }
