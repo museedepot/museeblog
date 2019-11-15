@@ -10,6 +10,7 @@ tags: [
 img: ""
 summary: "![/img/MUSA/steuern.jpg#float-right-small](/img/MUSA/steuern.jpg#float-right-small)
 
+
 Eine kalte Woche. Brr. Zum verlängerten Wochenende wurde es glücklicherweise wärmer. Ein paar schöne Herbsttage bevor der Winter kommt. Diesmal besuchte ich zur späten Stunde die Ausstellung »Das Rote Wien« im Wien Museum MUSA. Eine kulturhistorische Ausstellung im MUSA? Ja, du hast richtig gelesen. Denn das Wien Museum wird zurzeit umgebaut, weshalb das MUSA als eines der Ausweichquartiere dient."
 ---
 

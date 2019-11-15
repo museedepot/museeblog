@@ -2,19 +2,35 @@
 
 <section class="post-nav">
     <ul>
-        {{ with .NextInSection }}
+
         <li>
-            <a href="{{.Permalink}}"><i class="las la-chevron-left la-lg"></i></a>
+            {{ with .NextInSection }}
+            <a href="{{.Permalink}}">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" transform="scale(1,-1)" viewBox="0 0 1024 1024">
+                    <path d="M632 813L609 791L225 407L203 384L225 361L609 -23L632 -45L655 -23L770 93L792 115L770 138L524 384L770 630L792 653L770 675L655 791zM632 722L702 652L456 407L433 384L456 361L702 116L632 46L294 384z"></path>
+                </svg>
+            </a>
+            {{ end }}
         </li>
-        {{ end }}
+
         <li>
-            <a href="{{.Site.BaseURL}}"><i class="las la-home la-lg"></i></a>
+            <a href="{{.Site.BaseURL}}">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" transform="scale(1,-1)" viewBox="0 0 1024 1024">
+                    <path d="M512 813L489 791L73 375L119 329L160 370L160 0L448 0L448 320L576 320L576 0L864 0L864 370L905 329L951 375L535 791zM512 722L800 434L800 64L640 64L640 384L384 384L384 64L224 64L224 434z"></path>
+                </svg>
+            </a>
         </li>
-        {{ with .PrevInSection }}
+
         <li>
-            <a href="{{.Permalink}}"><i class="las la-chevron-right la-lg"></i></a>
+            {{ with .PrevInSection }}
+            <a href="{{.Permalink}}">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" transform="scale(1,-1)" viewBox="0 0 1024 1024">
+                    <path d="M392 813L369 791L254 675L232 653L254 630L500 384L254 138L232 115L254 93L369 -23L392 -45L415 -23L799 361L821 384L799 407L415 791zM392 722L730 384L392 46L322 116L568 361L591 384L568 407L322 652z"></path>
+                </svg>
+            </a>
+            {{ end }}
         </li>
-        {{ end }}
+
     </ul>
 </section>
  <!--   {{ if .Site.DisqusShortname }}
