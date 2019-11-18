@@ -14,7 +14,7 @@
 
     {{ range (.Paginate (.Data.Pages.GroupByDate "2006")).PageGroups  }}
 
-    <h3>{{ .Key }}</h3>
+    <h2>{{ .Key }}</h2>
     <ul>
         {{ range .Pages }}
         <li>
@@ -28,6 +28,6 @@
 
 </section>
 
-{{ partial "paginat.html" . }}
+{{ partial "paginate.html" . }}
 
 {{ end }}

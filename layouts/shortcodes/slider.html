@@ -1,0 +1,37 @@
+<!--
+Shortcode Image Comparison
+-->
+<link rel="stylesheet" href="https://unpkg.com/beerslider@1.0.3/dist/BeerSlider.css">
+<link rel="stylesheet" href="/css/slider.css">
+
+<div class="slider">
+	<div g-component="slider" id="slider" class="beer-slider" data-beer-label="{{ .Get "labelb" }}">
+  		<img src= "{{ .Get "srcb" }}" 
+  		 {{- if or (.Get "altb") (.Get "caption") }}
+         alt="{{ with .Get "altb" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+         {{- end -}}
+  		>
+  		<div class="beer-reveal" data-beer-label="{{ .Get "labela" }}">
+    		<img src= "{{ .Get "srca" }}" 
+    		         {{- if or (.Get "alta") (.Get "caption") }}
+         	alt="{{ with .Get "altb" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+         	{{- end -}}
+    		>        
+  		</div>
+	</div>
+    {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
+        <figcaption>
+            {{ with (.Get "title") -}}
+                <h4>{{ . }}</h4>
+            {{- end -}}
+            {{- if or (.Get "caption") (.Get "attr") -}}<p>
+                {{- .Get "caption" | markdownify -}}
+                {{- with .Get "attrlink" }}
+                    <a href="{{ . }}">
+                {{- end -}}
+                {{- .Get "attr" | markdownify -}}
+                {{- if .Get "attrlink" }}</a>{{ end }}</p>
+            {{- end }}
+        </figcaption>
+    {{- end }}
+</div>

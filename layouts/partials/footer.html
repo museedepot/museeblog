@@ -6,8 +6,36 @@
     </footer>
 </div>
 
+<!--
+Image Slider
+-->
+
+<script src="https://unpkg.com/beerslider@1.0.3/dist/BeerSlider.js"></script>
+
+<!--
+Gia Components
+-->
+
+<script src="https://unpkg.com/gia@1.0.1/dist/Component.min.js"></script>
+<script>
+	class slider extends Component {
+    mount() {
+        new BeerSlider(document.getElementById('slider'));
+    		}
+	}
+	const components = {
+    	"slider": slider
+}
+</script>
+
+<!--
+Swup Components
+-->
+
 <script src="https://unpkg.com/swup@2.0.8/dist/swup.min.js"></script>
 <script src="https://unpkg.com/@swup/scroll-plugin@1.0.6/dist/SwupScrollPlugin.min.js"></script>
+<script src="https://unpkg.com/@swup/gia-plugin@1.0.1/dist/SwupGiaPlugin.min.js"></script>
+
 <script>
 	const options = {
 		animateHistoryBrowsing: true,
@@ -15,12 +43,15 @@
     		'a[href^="' +
     		window.location.origin +
     		'"]:not([data-no-swup]), a[href^="/"]:not([data-no-swup]), a[href^="#:"]:not([data-no-swup])',
-		plugins: [new SwupScrollPlugin({
+		plugins: 	[
+				new SwupScrollPlugin({
 					animateScroll: true,
 					doScrollingRightAway: false,
 					scrollFriction: 0.3,
 					scrollAcceleration: 0.03,
-			  		})]
+			  		}),
+				new SwupGiaPlugin({components: components})
+				]
 		};
 	const swup = new Swup(options);
 </script>

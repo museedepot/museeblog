@@ -10,7 +10,13 @@
 
 <body>
   <div id="container"> 
+ 
     {{ partial "header_home" . }}
+  	<div  id="swup" class="transition-fade">
+  		<div class="nav" id="nav">
+    {{ partial "social" . }}
     {{ partial "nav" . }}
+    	</div>
+    </div>
 
     <main id="swup" class="transition-fade">

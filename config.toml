@@ -1,11 +1,15 @@
 baseurl = "https://museeblog.at/"
 title = "MuséeBlog"
 canonifyurls = true
-languagecode = "de-DE"
+languagecode = "de"
 summaryLength = 25
 enableEmoji = true
 paginate = 6
 enableRobotsTXT= true
+DefaultContentLanguage = "de"
+footnoteReturnLinkContents = "↩"
+
+
 
 [author]
     name = "Muséedepot"
@@ -20,4 +24,34 @@ enableRobotsTXT= true
     #patreon = ""
 
 [params]
-    tagline = "Ausflüge, Ausstellungen, Museen, Geschichten"
+
+
+[languages.de]
+weight = 0
+languageName = "Deutsch"
+tagline = "Ausflüge, Ausstellungen, Museen, Geschichten"
+
+[[languages.de.menu.main]]
+url    = "/"
+name   = "Home"
+weight = 0
+
+[languages.en]
+weight = 10
+languageName = "English"
+tagline = "trips, exhibtions, museums, stories"
+
+[[languages.en.menu.main]]
+url    = "/"
+name   = "Home"
+weight = 0
+
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true
+  fractions = false
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5

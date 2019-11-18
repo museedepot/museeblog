@@ -4,8 +4,8 @@ date: 2019-11-09T16:28:47+01:00
 draft: false
 tags: ["Karte"]
 img: "/img/Map/VogelschauWien500.jpg#mid"
-description: "Auf der Seite der Österreichischen Nationalbibliothek entdeck ich, nach der Eingabe einiger Suchbegriffe, eine wunderschöne Karte, die ich euch nicht vorenthalten kann. Es handelt sich um einen kolorierten Vogelschauplan von Wien, genaugenommen von der Inneren Stadt, aus dem späten 18. Jahrhundert. Der Zeichner, ein gewisser Josef Daniel von Huber (1730/31-1788), ist euch vermutlich unbekannt, weswegen ich ihn euch kurz vorstellen werde."
-summary: "Auf der Seite der Österreichischen Nationalbibliothek entdeck ich, nach der Eingabe einiger Suchbegriffe, eine wunderschöne Karte, die ich euch nicht vorenthalten kann. Es handelt sich um einen kolorierten Vogelschauplan von Wien, genaugenommen von der Inneren Stadt, aus dem späten 18. Jahrhundert. Der Zeichner, ein gewisser Josef Daniel von Huber (1730-1788), ist euch vermutlich unbekannt, weswegen ich ihn euch kurz vorstellen werde."
+description: "Auf der Seite der Österreichischen Nationalbibliothek entdeck ich, nach der Eingabe einiger Suchbegriffe, eine wunderschöne Karte, die ich euch nicht vorenthalten kann. Es handelt sich um einen kolorierten Vogelschauplan von Wien, genaugenommen von der Inneren Stadt, aus dem späten 18. Jahrhundert. Der Zeichner, ein gewisser Josef Daniel von Huber (1730/31-1788), ist euch vermutlich unbekannt, weswegen ich ihn euch kurz vorstelle."
+summary: "Auf der Seite der Österreichischen Nationalbibliothek entdeck ich, nach der Eingabe einiger Suchbegriffe, eine wunderschöne Karte, die ich euch nicht vorenthalten kann. Es handelt sich um einen kolorierten Vogelschauplan von Wien, genaugenommen von der Inneren Stadt, aus dem späten 18. Jahrhundert. Der Zeichner, ein gewisser Josef Daniel von Huber (1730/31-1788), ist euch vermutlich unbekannt, weswegen ich ihn euch kurz vorstelle."
 ---
 
 Herbsttage. Draußen regnet es. Nass. Da verbring ich doch lieber einen gemütlichen Tag zu Hause. Den Haushalt erledigen, um dann im Internet zu surfen und Serien zu schauen.
@@ -14,9 +14,9 @@ Irgendwie, ich weiß nicht wieso und warum, bin ich dann auf die Seite der Öste
 
 Es handelt sich um einen kolorierten Vogelschauplan von Wien, genaugenommen von der Inneren Stadt, aus dem späten 18. Jahrhundert. Bei einem Vogelschauplan werden Gebäude und andere Kartenelemente perspektivisch dargestellt. Neben der üblichen x- und y-Achse erhält die Karte somit auch eine z-Achse. Die Gebäude wachsen in die Höhe. Ach, ich liebe solche Karten, besonders die Detailverliebtheit.
 
-Der Zeichner, ein gewisser Josef Daniel von Huber (1730 &frasl; 31-1788), ist euch vermutlich unbekannt, weswegen ich ihn euch kurz vorstellen werde.
+Der Zeichner, ein gewisser Josef Daniel von Huber (1730/31-1788), ist euch vermutlich unbekannt, weswegen ich ihn euch kurz vorstelle.
 
-## Josef Daniel von Huber ^[Für die Biografie siehe Geschichte Wien Wiki. URL: https://www.geschichtewiki.wien.gv.at/Joseph_Daniel_von_Huber<br>Helga Hühnel und Elisabeth (2016): Josef Daniel von Huber. Vogelschauansicht von Prag, 1769. ÖNB Forschungsblog. URL: https://onb.ac.at/forschung/forschungsblog/artikel/joseph-daniel-von-huber-vogelschauansicht-von-prag-1769/]
+## Josef Daniel von Huber ^[Für die Biografie siehe Geschichte Wien Wiki. URL: https://www.geschichtewiki.wien.gv.at/Joseph_Daniel_von_Huber<br>und Helga Hühnel und Elisabeth Zeilinger (2016): Josef Daniel von Huber. Vogelschauansicht von Prag, 1769. ÖNB Forschungsblog. URL: https://onb.ac.at/forschung/forschungsblog/artikel/joseph-daniel-von-huber-vogelschauansicht-von-prag-1769/]
 
 Nach genossener militärischer Ausbildung nahm von Huber am Siebenjährigen Krieg teil. Danach wurde er nach Böhmen und Mähren beordert, um im Zuge der josephinischen Landesaufnahme bei der topografischen Kartografierung der beiden habsburgischen Länder Böhmen und Mähren mitzuhelfen. 
 
@@ -24,11 +24,11 @@ Während seines Aufenthaltes in Prag fertigte er in Eigenregie einen detailliert
 
 Die Federzeichnung für den Vogelschauplan von Wien konnte von Huber 1773 abschließen, doch der endgültige Druck der Karte zog sich bis 1778. Den erhofften finanziellen Gewinn konnte er damit nicht einfahren. Den ausbleibenden Erfolg erklärt von Huber 1785 bei der hier vorgestellten kolorierten Vogelschau der Inneren Stadt folgendermaßen:
 
-> »Der Verfasser dieses Privilegirten Werks hat im Jahr 1778 einen Abriß dieser Haupt-Stadt herausgegeben, welcher aber ungeachtet seines Fleisses wegen schlechter ausarbeitung der allgemeinen erwartung nicht entsprochen hat.« ^[siehe Karte]
+> »Der Verfasser dieses Privilegirten Werks hat im Jahr 1778 einen Abriß dieser Haupt-Stadt herausgegeben, welcher aber ungeachtet seines Fleisses wegen schlechter ausarbeitung der allgemeinen erwartung nicht entsprochen hat.« ^[siehe Karte.]
 
 1788, drei Jahre nach Veröffentlichung, verstarb von Huber in Wien Leopoldstadt.
 
-{{< figure src="/img/Map/VogelschauWien.jpg" title="Vogelschau der Innenstadt Wien. Josef Daniel von Huber. Wien:1785. 165x178cm." alt="Vogelschau der Innenstadt Wien. Josef Daniel von Huber. Wien:1785." caption="Originaltitel: Die Kayl.Königl. Haupt- und Residenz-Stadt Wien. Wie sie im Jahr 1785 unter der Regierung Josephs des zweyten stehet. Quelle: ÖNB http://data.onb.ac.at/rep/100484FB " class="full">}}
+{{< figure src="/img/Map/VogelschauWien.jpg" title="Vogelschau der Innenstadt Wien. Josef Daniel von Huber. Wien:1785. 165x178cm." alt="Vogelschau der Innenstadt Wien. Josef Daniel von Huber. Wien:1785." caption="Originaltitel: Die Kayl.Königl. Haupt- und Residenz-Stadt Wien. Wie sie im Jahr 1785 unter der Regierung Josephs des zweyten stehet. Quelle: ÖNB http://data.onb.ac.at/rep/100484FB" class="full">}}
 
 ## Karte
 
@@ -42,7 +42,7 @@ Die Innenstadt ist bereits sehr dicht verbaut. Die Fassaden der Gebäude sind er
 
 Auch über die Verkehrsanbindungen gibt von Huber Auskunft. Beim Platz vor dem Kärntnertor schreibt er: 
 
-> »Alhier wie bey allen übrigen Hauptthören Stehen eine Große Zahl Lehen Kutschen zu allen stunden vor Jederman bereith.« ^[siehe Karte]
+> »Alhier wie bey allen übrigen Hauptthören Stehen eine Große Zahl Lehen Kutschen zu allen stunden vor Jederman bereith.« ^[siehe Karte.]
 
 So viele Kleinigkeiten, die es zu erkunden gibt. Fraglos ein schöner Blick in die Vergangenheit der Stadt.
 

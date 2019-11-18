@@ -3,8 +3,8 @@
 <section id="home">
   <ul>
     <li>
-          {{ $paginator := .Paginate (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
-{{ range $paginator.Pages }}
+        {{ $paginator := .Paginate (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
+            {{ range $paginator.Pages }}
             <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
             {{ if .Params.img }}
             <img src="{{ .Site.BaseURL }}/{{ .Params.img }}" alt="{{ .Title }}"><img/>
@@ -22,5 +22,6 @@
   </ul>
 
 </section>
-{{ partial "paginat" . }}
+
+{{ partial "paginate" . }}
 {{ end }}
