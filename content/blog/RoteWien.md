@@ -4,7 +4,6 @@ date: 2019-11-04T18:01:03+01:00
 draft: false
 tags: [
 "Wien Museum",
-"Zwischenkriegszeit",
 "Geschichte",
 ]
 img: ""

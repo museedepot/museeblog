@@ -2,7 +2,8 @@
 title: "Vogelschauplan Wien, Josef Daniel von Huber"
 date: 2019-11-09T16:28:47+01:00
 draft: false
-tags: ["Karte"]
+tags: ["Karte", "Geschichte",
+]
 img: "/img/Map/VogelschauWien500.jpg#mid"
 description: "Auf der Seite der Österreichischen Nationalbibliothek entdeck ich, nach der Eingabe einiger Suchbegriffe, eine wunderschöne Karte, die ich euch nicht vorenthalten kann. Es handelt sich um einen kolorierten Vogelschauplan von Wien, genaugenommen von der Inneren Stadt, aus dem späten 18. Jahrhundert. Der Zeichner, ein gewisser Josef Daniel von Huber (1730/31-1788), ist euch vermutlich unbekannt, weswegen ich ihn euch kurz vorstelle."
 summary: "Auf der Seite der Österreichischen Nationalbibliothek entdeck ich, nach der Eingabe einiger Suchbegriffe, eine wunderschöne Karte, die ich euch nicht vorenthalten kann. Es handelt sich um einen kolorierten Vogelschauplan von Wien, genaugenommen von der Inneren Stadt, aus dem späten 18. Jahrhundert. Der Zeichner, ein gewisser Josef Daniel von Huber (1730/31-1788), ist euch vermutlich unbekannt, weswegen ich ihn euch kurz vorstelle."

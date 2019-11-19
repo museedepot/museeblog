@@ -182,7 +182,7 @@ Navigation + Social
   margin: 0;
   padding: 0;
   list-style: none;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 #container #social li {
@@ -294,12 +294,13 @@ Content Home
 }
 
 #container main section#home a i{
-  color: #FF7474;
+  color: #F45D5D;
   padding: 6px 4px;
   border-radius: 8px;
   font-family: "Josefin Sans", sans;
   transition: 400ms ease-in-out;
   position: relative;
+  font-size: 1.1em;
 }
 
 
@@ -311,7 +312,7 @@ Content Home
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #FF7474;
+  background-color: #F45D5D;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }

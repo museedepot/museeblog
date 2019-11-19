@@ -22,3 +22,12 @@ Leider habe ich noch keine Kommentarfunktion eingerichtet, aber vielleicht kommt
 Falls dir mein Projekt gefällt und du Freude und Spaß beim Lesen der Artikel hast, würde ich mich sehr über eine kleine Spende für einen Museumseintritt oder einen ☕️ freuen. [Paypal](https://paypal.me/museedepot?locale.x=de_DE) ist zurzeit die einzige Überweisungsmöglichkeit.
 
 Ich hoffe der Blog gefällt dir und du liest eifrig. 😁 😊
+
+---
+
+Offenlegung gemäß § 25 MedienG
+
+Thomas Hölzl
+3376 Sankt Martin-Karlsbach
+Kontakt: museedepot@protonmail.com
+

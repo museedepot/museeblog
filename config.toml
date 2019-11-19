@@ -1,5 +1,5 @@
 baseurl = "https://museeblog.at/"
-title = "MuséeBlog"
+title = "MuséeBlog | Blog, Museen & Ausflüge"
 canonifyurls = true
 languagecode = "de"
 summaryLength = 25
@@ -12,7 +12,7 @@ footnoteReturnLinkContents = "↩"
 
 
 [author]
-    name = "Muséedepot"
+    name = "Muséeblog"
     mail = "museedepot@protonmail.com"
     github = "museedepot/museeblog"
     #gitlab = ""
@@ -52,6 +52,5 @@ weight = 0
   fractions = false
 
 [sitemap]
-  changefreq = "monthly"
-  filename = "sitemap.xml"
+  changefreq = "weekly"
   priority = 0.5

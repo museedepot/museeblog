@@ -3,10 +3,8 @@ author: Museedepot
 date: 2019-10-20
 draft: false
 tags: [
-    "Jugendstil",
     "Kunst",    
     "Leopoldmuseum",
-    "WienerModerne",
 ]
 title: »Wien 1900« Leopoldmuseum
 description: "Austellungsbericht »Wien 1900« im Leopoldmuseum. Es nieselt leicht; er färbt die Straße schwarz. Sprühnebel. Was tun? Ein Tag, um ins Museum zu gehen, um eine Ausstellung zu besuchen? Das Leopoldmuseum hat eine über die Wiener Moderne zusammengestellt. Die habe ich schon lange im Hinterkopf."
