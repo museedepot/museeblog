@@ -23,11 +23,7 @@ Falls dir mein Projekt gefällt und du Freude und Spaß beim Lesen der Artikel h
 
 Ich hoffe der Blog gefällt dir und du liest eifrig. 😁 😊
 
----
 
-Offenlegung gemäß § 25 MedienG
 
-Thomas Hölzl
-3376 Sankt Martin-Karlsbach
-Kontakt: museedepot@protonmail.com
+
 

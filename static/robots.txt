@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /datenschutz/
+Disallow: /impressum/
+Sitemap: https://www.museeblog.at/de/sitemap.xml 
