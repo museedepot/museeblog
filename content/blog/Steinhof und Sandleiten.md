@@ -1,10 +1,10 @@
 ---
 title: "Steinhof und Sandleiten – Eine Erzählung"
-date: 2019-11-25T09:04:27+01:00
+date: 2019-11-24T09:04:27+01:00
 draft: false
 tags: ["Wandern", "Stadtausflug"]
 summary: "
-![/img/MUSA/steuern.jpg#float-right-small](img/Steinhof/Otto-Wagner-Kirche_Front.jpg#float-small)
+![Otto Wagner Kirche](img/Steinhof/Otto-Wagner-Kirche_Front.jpg#float-small)
 Ein Nachmittag Zeit. Herbst. Die Sonne kämpft sich durch Wolkenlagen, überwindet sie, erhellt. Sie streckt ihre Fühler aus. Bäume, Sträucher, Gräser greifen dankbar danach. Ein letzter Kräfteschub bevor Schnee und Kälte sie in einen grauen Schleier hüllt.
 
 
@@ -43,7 +43,7 @@ Die goldene Kuppel der Kirche blitzt immer wieder hervor. Byzanz?
 
 So viele Kehren, ein kleines Alpe d'Huez. Die Sonne erleuchtet so manchen Pavillon und offenen Wiesenfleck bevor sie sich zurückzieht, um wieder zurückzukehren. Das letzte Steilstück erreicht – zu steil. Absteigen und fortan schieben.
 
-{{< figure src="/img/Steinhof/Otto-Wagner-Kirche_Front.jpg" title="Kirche am Steinhof Eingang" caption="Auf den Türmen thronen die Heiligenfiguren von Leopold(rechts) und Severin(links). Die Bleiglasfenster wurden von Koloman Moser entworfen und von Leopold Forstner umgesetzt." alt="Kirche am Steinhof von vorne, Eingang" class="float-right">}}
+{{< figure src="/img/Steinhof/Otto-Wagner-Kirche_Front.jpg" title="Kirche am Steinhof Eingang" caption="Auf den Türmen thronen die Heiligenfiguren von Leopold(links) und Severin(rechts). Die Bleiglasfenster wurden von Koloman Moser entworfen und von Leopold Forstner umgesetzt." alt="Kirche am Steinhof von vorne, Eingang" class="float-right">}}
 
 Mein Ziel – erreicht. Die Otto-Wagner-Kirche am Steinhof, dem Heiligen Leopold geweiht, auf einem Turm thront er, mit bester Aussicht. Auf jeden Fall ein Glanzstück der Wiener Secession. Sie überblickt die gesamte Anlage, weilt oberhalb. Die goldene Kuppel (2 kg Blattgold!) spiegelt die Sonnenstrahlen.
 

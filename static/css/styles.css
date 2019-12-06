@@ -50,7 +50,6 @@ a:hover {
 
 
 blockquote {
-  text-indent: 1em;
   margin: 2em 3em 2em 3em;
   position: relative;
   color: #747474;
@@ -386,10 +385,6 @@ Content Single
 #container main article p {
 }
 
-#container main article p em {
-  color: #747474;
-}
-
 #container main article p a {
   text-decoration: underline;
 }
@@ -525,6 +520,7 @@ Image full
 @supports (width: 100vw) {
   .full-image, figure.full img, img[src*="full"] {
     width: 96vw;
+    max-width: 2000px;
     position: relative;
     left: 50%;
     right: 50%;
