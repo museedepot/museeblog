@@ -7,7 +7,7 @@ body {
   padding: 0;
   font-family: "Crimson Pro", serif;
   color: #2b2411;
-  background-color: #fffddd;
+  background-color: #fffdea;
 }
 
 h1,
@@ -171,7 +171,7 @@ Navigation + Social
   border-bottom: solid 1px #a68767;
   flex-wrap: wrap;
   padding: 0.2em;
-  background: #fffddd;
+  background: #fffdea;
   line-height: 2;
 }
 
@@ -223,12 +223,12 @@ Navigation + Social
 
 #container nav a:hover {
   background: #FF7474;
-  color: #fffddd;
+  color: #fffdea;
 }
 
 #container nav a.active {
   background: #FF7474;
-  color: #fffddd;
+  color: #fffdea;
 }
 
 /*  
@@ -421,7 +421,7 @@ Content Post Navigation
 
 #container main section.post-nav a:hover {
   background: #FF7474;
-  fill: #fffddd;
+  fill: #fffdea;
 }
 
 /*
@@ -454,7 +454,7 @@ ul.pagination a {
 
 ul.pagination a:hover {
   background: #FF7474;
-  fill: #fffddd;
+  fill: #fffdea;
 }
 
 /*  
