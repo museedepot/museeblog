@@ -17,7 +17,9 @@ Es handelt sich um einen kolorierten Vogelschauplan von Wien, genaugenommen von 
 
 Der Zeichner, ein gewisser Josef Daniel von Huber (1730/31-1788), ist euch vermutlich unbekannt, weswegen ich ihn euch kurz vorstelle.
 
-## Josef Daniel von Huber ^[Für die Biografie siehe Geschichte Wien Wiki. URL: https://www.geschichtewiki.wien.gv.at/Joseph_Daniel_von_Huber<br>und Helga Hühnel und Elisabeth Zeilinger (2016): Josef Daniel von Huber. Vogelschauansicht von Prag, 1769. ÖNB Forschungsblog. URL: https://onb.ac.at/forschung/forschungsblog/artikel/joseph-daniel-von-huber-vogelschauansicht-von-prag-1769/]
+## Josef Daniel von Huber[^1]
+
+[^1]: Für die Biografie siehe Geschichte Wien Wiki. URL: https://www.geschichtewiki.wien.gv.at/Joseph_Daniel_von_Huber<br>und Helga Hühnel und Elisabeth Zeilinger (2016): Josef Daniel von Huber. Vogelschauansicht von Prag, 1769. ÖNB Forschungsblog. URL: https://onb.ac.at/forschung/forschungsblog/artikel/joseph-daniel-von-huber-vogelschauansicht-von-prag-1769/
 
 Nach genossener militärischer Ausbildung nahm von Huber am Siebenjährigen Krieg teil. Danach wurde er nach Böhmen und Mähren beordert, um im Zuge der josephinischen Landesaufnahme bei der topografischen Kartografierung der beiden habsburgischen Länder Böhmen und Mähren mitzuhelfen. 
 
@@ -25,7 +27,9 @@ Während seines Aufenthaltes in Prag fertigte er in Eigenregie einen detailliert
 
 Die Federzeichnung für den Vogelschauplan von Wien konnte von Huber 1773 abschließen, doch der endgültige Druck der Karte zog sich bis 1778. Den erhofften finanziellen Gewinn konnte er damit nicht einfahren. Den ausbleibenden Erfolg erklärt von Huber 1785 bei der hier vorgestellten kolorierten Vogelschau der Inneren Stadt folgendermaßen:
 
-> »Der Verfasser dieses Privilegirten Werks hat im Jahr 1778 einen Abriß dieser Haupt-Stadt herausgegeben, welcher aber ungeachtet seines Fleisses wegen schlechter ausarbeitung der allgemeinen erwartung nicht entsprochen hat.« ^[siehe Karte.]
+> »Der Verfasser dieses Privilegirten Werks hat im Jahr 1778 einen Abriß dieser Haupt-Stadt herausgegeben, welcher aber ungeachtet seines Fleisses wegen schlechter ausarbeitung der allgemeinen erwartung nicht entsprochen hat.« [^2]
+
+[^2]: siehe Karte.
 
 1788, drei Jahre nach Veröffentlichung, verstarb von Huber in Wien Leopoldstadt.
 
@@ -43,7 +47,9 @@ Die Innenstadt ist bereits sehr dicht verbaut. Die Fassaden der Gebäude sind er
 
 Auch über die Verkehrsanbindungen gibt von Huber Auskunft. Beim Platz vor dem Kärntnertor schreibt er: 
 
-> »Alhier wie bey allen übrigen Hauptthören Stehen eine Große Zahl Lehen Kutschen zu allen stunden vor Jederman bereith.« ^[siehe Karte.]
+> »Alhier wie bey allen übrigen Hauptthören Stehen eine Große Zahl Lehen Kutschen zu allen stunden vor Jederman bereith.« [^3]
+
+[^3]: siehe Karte.
 
 So viele Kleinigkeiten, die es zu erkunden gibt. Fraglos ein schöner Blick in die Vergangenheit der Stadt.
 
