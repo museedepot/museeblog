@@ -1,4 +1,4 @@
-baseurl = "https://museeblog.at/"
+baseurl = "https://museeblog.at"
 title = "MuséeBlog"
 canonifyurls = true
 languagecode = "de"
